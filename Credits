@@ -16,12 +16,32 @@ clean = """
        \033[1;34m║                           \033[1;39m  Youtube          : \033[1;31m ArnwareProductions                               \033[1;34m║
        \033[1;34m║                           \033[1;39m  Status           : \033[1;34m bEta                                           \033[1;34m║
         \033[1;39m└────────────────────────────────────────────────────────────────────────────────────────────────┘
-          MCC LOADERS 1.1 SOURCE CODE - https://discord.gg/chiterl
-          Trillium HQ/Walmart Solutions for the clients - https://discord.gg/pxbXvBTkxb
-                                               
+
+                                      \033[1;39m┌────────────────────┐         
+                                      \033[1;34m║       \033[1;39mCredits        \033[1;34m║          
+                                      \033[1;39m└────────────────────┘
+
+     \033[1;97m
+     Thanks to the following people/organizations:
+
+     \033[1;31m[\033[1;39m1\033[1;31m] \033[1;34mWalmart Solutions Mc clients      \033[1;31m- \033[1;34mgg/pxbXvBTkxb
+     \033[1;31m[\033[1;39m2\033[1;31m] \033[1;34mMcc Loader old source code    \033[1;31m- \033[1;34mgg/chiterl
+     \033[1;31m[\033[1;39m3\033[1;31m] \033[1;34mOpenAI         \033[1;31m- \033[1;34mModel Provider
+     \033[1;31m[\033[1;39m4\033[1;31m] \033[1;34mGitHub         \033[1;31m- \033[1;34mRepository Hosting
+     \033[1;31m[\033[1;39m5\033[1;31m] \033[1;34mCommunity      \033[1;31m- \033[1;34mFeedback and Support
+     \033[1;97m
+\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+\033[1;31m[\033[1;39m-\033[1;31m] \033[1;34mReturn to Main Menu
+"""
+
 print(clean)
 while True:
-    os.system('cls')
+    os.system('cls' if os.name == 'nt' else 'clear')
     print(clean)
+    chon = input('\033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> \033[1;39m[\033[1;34mCHOOSE\033[1;39m]\033[1;39m: \033[1;34m')
+    if chon == '-':
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("Returning to main menu...")
+        break
     else:
         continue
