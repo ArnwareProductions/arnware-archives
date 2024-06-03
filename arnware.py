@@ -14,9 +14,8 @@ def windowtitle(a):  # Corrected function name
     os.system(f"title {a}")
 
 
-windowtitle("MCC Loader Premium ^<^/^> ^| Not Authorized")
-print("Bypassing authentication...")
-print("Authenticated...")
+windowtitle("Arnware Launcher ^<^/^> ^| Not Authorized")
+print("Logging in...")
 windowtitle("Arnware Loader Premium | authorized")  # Corrected function name
 print("\nWelcome in freemuim Mode.")
 
