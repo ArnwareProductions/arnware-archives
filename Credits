@@ -26,9 +26,6 @@ clean = """
 
      \033[1;31m[\033[1;39m1\033[1;31m] \033[1;34mWalmart Solutions Mc clients      \033[1;31m- \033[1;34mgg/pxbXvBTkxb
      \033[1;31m[\033[1;39m2\033[1;31m] \033[1;34mMcc Loader old source code    \033[1;31m- \033[1;34mgg/chiterl
-     \033[1;31m[\033[1;39m3\033[1;31m] \033[1;34mOpenAI         \033[1;31m- \033[1;34mModel Provider
-     \033[1;31m[\033[1;39m4\033[1;31m] \033[1;34mGitHub         \033[1;31m- \033[1;34mRepository Hosting
-     \033[1;31m[\033[1;39m5\033[1;31m] \033[1;34mCommunity      \033[1;31m- \033[1;34mFeedback and Support
      \033[1;97m
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
 \033[1;31m[\033[1;39m-\033[1;31m] \033[1;34mReturn to Main Menu
