@@ -1,6 +1,5 @@
 clean = """
 \033[1;39m
-
                          ░██████╗░██████╗░░░░░░████████╗░█████╗░░█████╗░██╗░░░░░░██████╗
                          ██╔════╝██╔════╝░░░░░░╚══██╔══╝██╔══██╗██╔══██╗██║░░░░░██╔════╝
                          ╚█████╗░╚█████╗░█████╗░░░██║░░░██║░░██║██║░░██║██║░░░░░╚█████╗░
@@ -14,10 +13,10 @@ clean = """
        \033[1;34m║                           \033[1;39m  Status           : \033[1;34m bEta                                           \033[1;34m║
        \033[1;39m└────────────────────────────────────────────────────────────────────────────────────────────────┘
    \033[0;31m                           Create a ticket if you found a client that is not working.
-\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
-                                                \033[1;39m┌────────────────────┐         
+\033[1;97m= = = = = =
+                                                \033[1;39m┌────────────────────────────┐         
                                                 \033[1;34m║   \033[1;39m   SS-Tools      \033[1;34m║          
-                                                \033[1;39m└────────────────────┘
+                                                \033[1;39m└────────────────────────────┘
                                     \033[1;97mThis section has not been audited by Arnware's Archive.    
                                 \033[1;97mThat means that most of the things here may not working. 
                            \033[1;97mPlease report to us if you found a tools that is buggy/not working.
@@ -31,23 +30,12 @@ clean = """
     """
 print(clean)
 while True:
-    os.system('cls')
+    os.system('cls' if os.name == 'nt' else 'clear')
     print(clean)
-    chon = input(
-        '\033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> \033[1;39m[\033[1;34mCHOOSE\033[1;39m]\033[1;39m: \033[1;34m')
+    chon = input('\033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> \033[1;39m[\033[1;34mCHOOSE\033[1;39m]\033[1;39m: \033[1;34m')
     if chon == '-':
-        os.system('cls')
-        print("Leaving SS-Tool test")
-        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Multi').text)
-    if chon == '1':
-        webbrowser.open_new("https://cdn.discordapp.com/attachments/1148033696641859584/1171827433549336657/Masew_Cleaner.exe?ex=655e1857&is=654ba357&hm=9b7cd01dfe5d28b2b8d14c20db6209a9aa8b608085f4fa7b84a2e046896fc87d&")
-    if chon == '2':
-        webbrowser.open_new("https://www.mediafire.com/file/fzkswm766mu35dz/Katana_SS_Tool.zip/file")
-    if chon == '3':
-        webbrowser.open_new("https://www.mediafire.com/file/mb6o9ja40sd8fmy/Sess.zip/file")
-    if chon == '4':
-        webbrowser.open_new("https://cdn.discordapp.com/attachments/1129999297857990660/1184463535108018216/Sp.zip?ex=658c10a1&is=65799ba1&hm=00c375377f32f1c47ae679a96f7078e9211fc4facf3447623f86b5bc0bc215ad&")
-    if chon == '5':
-        webbrowser.open_new("https://mega.nz/file/VzMlwaxJ#pSI8kQTN3xAOXyb_ZWfJkScHVs5pLjRZZy4BTn_tHEs")
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print("Returning to main menu...")
+        break
     else:
         continue
