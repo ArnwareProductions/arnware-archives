@@ -56,7 +56,8 @@ pre = """
 \033[1;39m
    \033[0;31m                                          Welcome, choose any sections.
 
-                                    \033[1;31m[\033[1;39m1\033[1;31m] \033[1;34mMinecraft                \033[1;31m[\033[1;39mSS\033[1;31m] \033[1;34mScreen Share Tools
+                                    \033[1;31m[\033[1;39m1\033[1;31m] \033[1;34mMinecraft                \033[1;31m[\033[1;39mCredits\033[1;31m] \033[1;34mCredits
+    \033[1;31m[\033[1;39mSS\033[1;31m] \033[1;34mScreen Share Tools
     """
 print(pre)
 
@@ -72,6 +73,9 @@ while True:
         os.system('clear')  # Use clear instead of cls
         print("                                            \033[1;39mLoading Screen Share Tools Section..")
         exec(requests.get('https://raw.githubusercontent.com/ArnwareProductions/arnware-archives/main/SS-TOOLS').text)
+    elif chon == 'Credits':
+        os.system('clear')  # Use clear instead of cls
+        print("                                            \033[1;39mLoading Credits Section..")
+        exec(requests.get('https://raw.githubusercontent.com/ArnwareProductions/arnware-launcher/main/Credits').text)
     else:
         continue
-
