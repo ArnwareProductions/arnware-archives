@@ -5,24 +5,24 @@ import json
 import requests
 import webbrowser
 from pystyle import Add, Center, Anime, Colors, Colorate, Write, System
+
 def bg1():
     os.system("")
 
-os.system("clear")  # Use clear instead of cls
+os.system("clear")
 
-def windowtitle(a):  # Corrected function name
+def windowtitle(a):
     os.system(f"title {a}")
-
 
 windowtitle("Arnware Launcher ^<^/^> ^| Not Authorized")
 print("Logging in...")
-windowtitle("Arnware Loader Premium | authorized")  # Corrected function name
+windowtitle("Arnware Loader Premium | authorized")
 print("\nWelcome in freemuim Mode.")
 
 bg1()
 
 time.sleep(2)
-os.system("clear")  # Use clear instead of cls
+os.system("clear")
 
 banner = r"""
        Arnware archives freemuim
@@ -62,19 +62,19 @@ pre = """
 print(pre)
 
 while True:
-    os.system('clear')  # Use clear instead of cls
+    os.system('clear')
     print(pre)
     chon = Write.Input("         [×] >>  ", Colors.red_to_purple, interval=0.0025)
     if chon == '1':
-        os.system('clear')  # Use clear instead of cls
+        os.system('clear')
         print("                                              \033[1;39mLoading Minecraft Section..")
         exec(requests.get('https://raw.githubusercontent.com/ArnwareProductions/arnware-archives/main/minecraft').text)
     elif chon == 'SS':
-        os.system('clear')  # Use clear instead of cls
+        os.system('clear')
         print("                                            \033[1;39mLoading Screen Share Tools Section..")
         exec(requests.get('https://raw.githubusercontent.com/ArnwareProductions/arnware-archives/main/SS-TOOLS').text)
     elif chon == 'Credits':
-        os.system('clear')  # Use clear instead of cls
+        os.system('clear')
         print("                                            \033[1;39mLoading Credits Section..")
         exec(requests.get('https://raw.githubusercontent.com/ArnwareProductions/arnware-launcher/main/Credits').text)
     else:
